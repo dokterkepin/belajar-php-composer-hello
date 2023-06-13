@@ -1,4 +1,5 @@
 <?php
+namespace dokterkepin\Belajar;
 class Costumer{
     public function __construct(private string $name)
     {
