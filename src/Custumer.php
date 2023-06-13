@@ -1,12 +1,12 @@
 <?php
 namespace dokterkepin\Belajar;
-class Costumer{
+class Custumer{
     public function __construct(private string $name)
     {
         
     }
 
-    public function panggil($name): string{
+    public function panggil($name = "Guest"): string{
         return  "Hello $name, my name is $this->name";
     }
 }
